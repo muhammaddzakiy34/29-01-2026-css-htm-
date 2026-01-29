@@ -1,0 +1,42 @@
+/*selector tag html*/
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(169, 209, 245);
+}
+
+h1 {
+    color: rgb(50, 135, 247);
+    font-size: 30px;
+}
+
+p {
+    color: rgb(37, 60, 122);
+    text-transform: capitalize;
+    border-color: rgb(208, 199, 255);
+}
+/*class selector*/  
+.bisque {
+    background-color: bisque;
+    font-size: 20px;
+}
+
+.miring {
+    text-decoration: underline;
+}
+
+.blue {
+    color:rgb(109, 107, 212);
+    background-color:cyan;
+    text-decoration: underline;
+}
+
+.font {
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid;
+}
+    
+/*ID selector*/
+#huruf-besar {
+    text-transform: uppercase;
+    border: 2px solid;
+}
